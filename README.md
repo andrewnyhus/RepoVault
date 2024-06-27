@@ -11,13 +11,13 @@ TODO:
   - [ ] github clone url
   - [ ] RepoVault clone url
 - [ ] Task A: Create task for fetching new repos to back up
-  - [ ] Authenticate with GitHub API
+  - [x] Authenticate with GitHub API
   - [ ] Fetch account's repos
     - [ ] Insert new records into database, update "last modified" commit or date 
   - [ ] Fetch starred repos
     - [ ] Insert new records into database, update "last modified" commit or date 
 - [ ] Task B: Create task for actually backing up the repos
-  - [ ] Authenticate with GitHub API
+  - [x] Authenticate with GitHub API
   - [ ] Query database for list of repos to back up
   - [ ] Go through each and do a pull if it exists on machine, otherwise do a clone
 - [ ] Implement API endpoints
