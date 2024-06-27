@@ -1,0 +1,9 @@
+
+services:
+
+  api-server:
+    build:
+      context: ./api_server
+    env_file:
+      - api_server/.env
+
