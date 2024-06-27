@@ -2,7 +2,7 @@
 Provides interface for automated backups of GitHub repositories you care about. Loosely inspired by https://codeberg.org/forgejo/forgejo
 
 TODO:
-- [ ] Create dockerized go server
+- [x] Create dockerized go server
 - [ ] Create database with table for repository
   - [ ] backup_enabled
   - [ ] owner
